@@ -1,0 +1,18 @@
+<% flash.each do |key, value| %>
+    <div class="alert alert-<%= key %> alert-dismissible">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <%= value %>
+    </div>
+<% end %>
+<% if @materialData %>
+    <div class="well results-block">
+    <%  @materialData.each do |data| %>
+        
+        Serial: <%= data["serialNumber"] %>
+        thalesID: <%= data["thalesID"] %>
+        repairHistory: <%= data["repairHistory"] %>
+        installationDate: <%= data["installationDate"] %>
+        activeStatus: <%= data["activeStatus"] %>
+    <% end %>  
+    </div>
+    <% end %> 

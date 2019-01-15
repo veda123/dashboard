@@ -1,0 +1,46 @@
+[{
+	"serialNumber"	:	"123456",
+	"thalesID"	:	"thales123",
+	"repairHistory" : "reapiredeffhdsjfh",
+	"installationDate" : "2019-01-07",
+	"activeStatus" : "Y"
+},
+{
+	"serialNumber"	:	"123456",
+	"thalesID"	:	"thales123",
+	"repairHistory" : "reapiredeffhdsjfh",
+	"installationDate" : "2019-01-07",
+	"activeStatus" : "Y"
+
+},
+{
+	"serialNumber"	:	"123456",
+	"thalesID"	:	"thales123",
+	"repairHistory" : "reapiredeffhdsjfh",
+	"installationDate" : "2019-01-07",
+	"activeStatus" : "Y"
+},
+{
+	"serialNumber"	:	"123456",
+	"thalesID"	:	"thales123",
+	"repairHistory" : "reapiredeffhdsjfh",
+	"installationDate" : "2019-01-07",
+	"activeStatus" : "Y"
+
+},
+{
+	"serialNumber"	:	"123456789",
+	"thalesID"	:	"thales123",
+	"repairHistory" : "reapiredeffhdsjfh",
+	"installationDate" : "2019-01-07",
+	"activeStatus" : "Y"
+},
+{
+	"serialNumber"	:	"123456789",
+	"thalesID"	:	"thales123",
+	"repairHistory" : "reapiredeffhdsjfh",
+	"installationDate" : "2019-01-07",
+	"activeStatus" : "Y"
+
+}
+]

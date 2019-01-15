@@ -1,0 +1,22 @@
+<nav class="navbar header sticky-top flex-md-nowrap p-2">
+  <%= link_to "Dashboard" ,"#", class:"navbar-brand header-title col-sm-3 col-md-2 mr-0" %>
+</nav>
+<div class= "container-fluid">
+  <div class="row">
+    <nav class="col-md-2 d-none d-md-block sidebar">
+      <div class="sidebar-sticky">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <%= link_to "Material Search", materials_search_path, class:"nav-link active" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Storage Location", storage_location_lookup_path, class:"nav-link" %>
+          </li>
+          <li class="nav-item">
+          <%= link_to "Transactions", transaction_index_path, class:"nav-link" %>
+        </li>
+        </ul>
+          </div>
+        </nav>
+        </div>
+        </div>

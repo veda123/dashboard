@@ -1,0 +1,22 @@
+<section class="col-md-10 ml-sm-auto col-lg-10 pt-3 px-4">
+    <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+        <h1>Material Search</h1>
+    </div>
+    <%= form_tag materials_search_path,remote: true, method: :get, id: "material-lookup-form" do %>
+        <div class="form-group row no-padding text-center col-md-12">
+            <div class="col-md-6">
+                <%= text_field_tag :material , params[:material], placeholder: "Material Number", autofocus: true,
+                    class: "form-control search-box input-lg" %>       
+            </div>
+            <div class="col-md-2">
+                <%= button_tag(type: :submit, class: "btn btn-md btn-success") do %>
+                    <i class="fa fa-search"></i> Look Up A Material
+                <% end %>
+            </div>
+        </div>
+    <% end %>
+    <br>
+    <div id="results">
+        <%= render 'search' %>
+    </div>
+</section>
